@@ -101,7 +101,7 @@ const App = () => {
     //Si tenemos un nuevo ganador que cumple las combinaciones, se setea el
     if (newWinner) {
       
-      toast.info('🦄 De donde se le sube la dificultad', {
+      toast.info('🦄 Manden al proximo contricante', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -121,7 +121,7 @@ const App = () => {
     else if (checkedEndGame(newBoard)) {
       setWinner(false)
       setResults(Winner)
-      toast.info('🦄 Que malos son los dos!', {
+      toast.info('🦄 Empate!', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
